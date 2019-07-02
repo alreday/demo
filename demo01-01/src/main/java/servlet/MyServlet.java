@@ -6,7 +6,7 @@ import java.io.IOException;
 public class MyServlet implements Servlet {
     @Override
     public void init(ServletConfig config) throws ServletException {
-
+        System.out.println("初始化");
     }
 
     @Override
