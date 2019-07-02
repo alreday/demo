@@ -11,6 +11,7 @@ public class MyServlet implements Servlet {
 
     @Override
     public ServletConfig getServletConfig() {
+        System.out.println("配置加载");
         return null;
     }
 
